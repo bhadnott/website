@@ -2082,11 +2082,11 @@ input, select, textarea {
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #3e210c;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #3e210c;;
 		}
 
 /* Image */
@@ -2447,7 +2447,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(144, 144, 144, 0.5);
+			background-color: r#3e210c;
 		}
 
 		input[type="submit"].icon:before,
@@ -2487,7 +2487,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #3e210c;;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2497,7 +2497,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #3e210c; !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2505,7 +2505,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color:#3e210c; !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3445,7 +3445,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #3e210c;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3578,12 +3578,13 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		cursor: default;
-		background-image :url("../../images/nasa3.jpg"); 
+		background-image :url("../../images/exoplanets.jpg"); 
+		background-size: cover;
 
 		height: 100vh;
 		min-height: 35em;
 		overflow: hidden;
-		position: relative;
+		position: absolute;
 		text-align: center;
 	}
 
@@ -3970,7 +3971,8 @@ input, select, textarea {
 
 	#footer2 {
 		padding: 6em 0 4em 0 ;
-		background-image :url("../../images/nasa4.jpg");
+		background-image :url("../../images/exoplanets.jpg");
+		background-size: cover;
 		text-align: center;
 	}
 
@@ -4085,7 +4087,7 @@ input, select, textarea {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  /* width: 10%;*/
 }
 
 #rcorners2 {
