@@ -3584,7 +3584,7 @@ input, select, textarea {
 		height: 100vh;
 		min-height: 35em;
 		overflow: hidden;
-		position: absolute;
+		position: relative;
 		text-align: center;
 	}
 
@@ -4097,3 +4097,4 @@ input, select, textarea {
   width: 200px;
   height: 150px; 
 }
+
